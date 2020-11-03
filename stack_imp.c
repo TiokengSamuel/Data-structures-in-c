@@ -13,7 +13,6 @@ void main() {
     int ch;
 
     do {
-        clrscr();
 
         printf("\n1. Push \n2. Pop \n3. Display \n4. Exit");
         printf("\n");
@@ -28,7 +27,6 @@ void main() {
                 break;
         }
     } while(ch!=4);
-    getch();
 }
 
 void Push() {
