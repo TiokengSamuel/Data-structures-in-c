@@ -13,8 +13,12 @@ void main() {
     int ch;
 
     do {
-        
+        printf("\n=====================================");
+        printf("\n|WELCOME TO THE STACK IMPLEMENTATION|");
+        printf("\n=====================================");
+
         printf("\n1. Push \n2. Pop \n3. Display \n4. Exit");
+        printf("\n");
         printf("\n");
         scanf("%d", &ch);
 
