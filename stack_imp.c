@@ -35,6 +35,7 @@ void main() {
             case 3: Display();
                 break;
             default: warning();
+                break;
         }
 
     } while(ch!=4);
